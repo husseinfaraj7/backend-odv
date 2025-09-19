@@ -94,10 +94,10 @@ importers:
         version: 1.1.6(@types/react-dom@18.0.0)(@types/react@18.0.0)(react-dom@18.0.0(react@18.0.0))(react@18.0.0)
       '@supabase/ssr':
         specifier: latest
-        version: 0.7.0(@supabase/supabase-js@2.71.2-canary.2)
+        version: 0.7.0(@supabase/supabase-js@2.71.2-canary.0)
       '@supabase/supabase-js':
-        specifier: latest
-        version: 2.71.2-canary.2
+        specifier: 2.71.2-canary.0
+        version: 2.71.2-canary.0
       '@vercel/analytics':
         specifier: latest
         version: 1.5.0(next@14.2.16(react-dom@18.0.0(react@18.0.0))(react@18.0.0))(react@18.0.0)
@@ -1185,32 +1185,32 @@ packages:
   '@radix-ui/rect@1.1.1':
     resolution: {integrity: sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==}
 
-  '@supabase/auth-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-gD/6gRLlLEpZM/tZi0Pmy4NuNC4ANTfSF+gLY9TXnuFvO7ZwLAogXz/SSCIsI5IKpOqmUIoijbdayiSva//wrg==}
+  '@supabase/auth-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-Nq5b6/vEglYZkdOkR4I9tFxrvmuaIPZhwX8C2qtVJvujcrRNAvtrFmniX9oki3h58c8Wb1NETgJX5rFgKWeRew==}
 
-  '@supabase/functions-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-9YM2D9cWCJBrLexNIU6eYrfrV+aIILA2O8eCdkMtz6xQJ9aechqpMiqNjWBSATPsCXVFqJ0EgJy85wegb22oag==}
+  '@supabase/functions-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-XEmq6B3xExCticvaP7eEyejFRd1YiU1tKFaeZmAov1NHd+EeVSEUm9LHCWPkO/z/2lIgXoPDgv3OWYM0ebk4nQ==}
 
   '@supabase/node-fetch@2.6.15':
     resolution: {integrity: sha512-1ibVeYUacxWYi9i0cf5efil6adJ9WRyZBLivgjs+AUpewx1F3xPi7gLgaASI2SmIQxPoCEjAsLAzKPgMJVgOUQ==}
     engines: {node: 4.x || >=6.0.0}
 
-  '@supabase/postgrest-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-s7O0HN6preJF2Hv26p7c6V6QUq6O31nY4Az6mR/ljMWjD+ASezw55tJwzONimym0MHECkKUMFogxzifG9a/BPQ==}
+  '@supabase/postgrest-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-PUONvL6cVM7f2+Wbs9QhdeC2yXxfpdhYyZLC6+p9w7dXVq3KEDUo9u7hi6HILZeXzESbp+eI89/VJdERC7yJgA==}
 
-  '@supabase/realtime-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-jfvm13oRpmPcaGN1U7kFIgQCV/sztNCGhxLMeN+pUN/PKvrAngPQnYSNBkcG7hhYCAToNTaam4WeEbAlwS0Dwg==}
+  '@supabase/realtime-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-IvvNO18xMje5IlPubpKTVT7TM1Oe3SY98C+aJAklz1ZMRrEOD4+kzE6/RQb25ziQ5/WsfEKoGwwk76Pon4GQ+A==}
 
   '@supabase/ssr@0.7.0':
     resolution: {integrity: sha512-G65t5EhLSJ5c8hTCcXifSL9Q/ZRXvqgXeNo+d3P56f4U1IxwTqjB64UfmfixvmMcjuxnq2yGqEWVJqUcO+AzAg==}
     peerDependencies:
       '@supabase/supabase-js': ^2.43.4
 
-  '@supabase/storage-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-ocyHP2b/V6vrAusOijv7fDjVE+MeqBoZRszDFXVcJxBQpLfSv1YkMwl0WjBVQmKVBA253uMV0fyRLfBGl6ah7g==}
+  '@supabase/storage-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-5D096vFsRL9dB58NSCbC8og6O8ragiq+kO/OQQJ6uvoIFpxuUSmrg2NU4XuAMA6hfMi1VApHapp7zIjPJ5St0A==}
 
-  '@supabase/supabase-js@2.71.2-canary.2':
-    resolution: {integrity: sha512-mzRaa1LGYe+Uu3T6A1pgcF3bUr6DlN22ymz2CPyDR1WsEW3Ace3scEvr53+LQ7ZtbhGRSPiqMh4DYBZV6JGX1w==}
+  '@supabase/supabase-js@2.71.2-canary.0':
+    resolution: {integrity: sha512-9Pb3+NHgztBVHX988jXP2iWegL9nwz7QAVupKnfMPPMfmONwWVzqS4SCca3yl/W8keB7nfDgdpx4/ZuhDOoykA==}
 
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
@@ -2943,11 +2943,11 @@ snapshots:
 
   '@radix-ui/rect@1.1.1': {}
 
-  '@supabase/auth-js@2.71.2-canary.2':
+  '@supabase/auth-js@2.71.2-canary.0':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/functions-js@2.71.2-canary.2':
+  '@supabase/functions-js@2.71.2-canary.0':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
@@ -2955,11 +2955,11 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  '@supabase/postgrest-js@2.71.2-canary.2':
+  '@supabase/postgrest-js@2.71.2-canary.0':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/realtime-js@2.71.2-canary.2':
+  '@supabase/realtime-js@2.71.2-canary.0':
     dependencies:
       '@supabase/node-fetch': 2.6.15
       '@types/phoenix': 1.6.6
@@ -2969,23 +2969,23 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@supabase/ssr@0.7.0(@supabase/supabase-js@2.71.2-canary.2)':
+  '@supabase/ssr@0.7.0(@supabase/supabase-js@2.71.2-canary.0)':
     dependencies:
-      '@supabase/supabase-js': 2.71.2-canary.2
+      '@supabase/supabase-js': 2.71.2-canary.0
       cookie: 1.0.2
 
-  '@supabase/storage-js@2.71.2-canary.2':
+  '@supabase/storage-js@2.71.2-canary.0':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/supabase-js@2.71.2-canary.2':
+  '@supabase/supabase-js@2.71.2-canary.0':
     dependencies:
-      '@supabase/auth-js': 2.71.2-canary.2
-      '@supabase/functions-js': 2.71.2-canary.2
+      '@supabase/auth-js': 2.71.2-canary.0
+      '@supabase/functions-js': 2.71.2-canary.0
       '@supabase/node-fetch': 2.6.15
-      '@supabase/postgrest-js': 2.71.2-canary.2
-      '@supabase/realtime-js': 2.71.2-canary.2
-      '@supabase/storage-js': 2.71.2-canary.2
+      '@supabase/postgrest-js': 2.71.2-canary.0
+      '@supabase/realtime-js': 2.71.2-canary.0
+      '@supabase/storage-js': 2.71.2-canary.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
