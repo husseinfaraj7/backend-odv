@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: olio-di-valeria-backend
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        value: https://pejuystijjkjxjctieyb.supabase.co
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBlanV5c3RpampranhqY3RpZXliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgyMDIxNTAsImV4cCI6MjA3Mzc3ODE1MH0.hOcqU4ej5O6Uh-AnvYTQiOJSHT5YFn2BiYb6aCNLuC4
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBlanV5c3RpampranhqY3RpZXliIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODIwMjE1MCwiZXhwIjoyMDczNzc4MTUwfQ._8kWiCrC1e7R3DD3ZrOc4-XaliuGQ2gUFgZ_8wWWJ5s
+      - key: JWT_SECRET
+        value: LGGIfh+S6VAKtWInBHizN9h/Db9leuMG9+0Pf5BB+BTgeCRH1u10NgPJw07hi22qOyJxNFrRg7Zh1uKWVt0/nA==
+      - key: SMTP_HOST
+        value: pop.securemail.pro
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        value: info@odvsicilia.it
+      - key: SMTP_PASS
+        value: 500Faraj@
+    domains:
+      - olio-di-valeria-backend.onrender.com
